@@ -22,6 +22,9 @@ export function initializeLightbox(fsLightbox) {
 
     setUpCore(fsLightbox);
 
+    console.log("core set up with config");
+    console.log(fsLightbox);
+
     elements.container = document.createElement('div');
     elements.container.className = `${PREFIX}container ${FULL_DIMENSION_CLASS_NAME} ${FADE_IN_STRONG_CLASS_NAME}`;
 

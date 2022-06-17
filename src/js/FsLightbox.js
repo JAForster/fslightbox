@@ -21,6 +21,7 @@ window.FsLightbox = function () {
      * @property { Boolean } exitFullscreenOnClose
      * @property { Boolean } loadOnlyCurrentSource
      * @property { Number } slideDistance
+     * @property { Boolean } disableDrag
      */
     this.props = {
         sources: [],
@@ -28,7 +29,8 @@ window.FsLightbox = function () {
         customClasses: [],
         types: [],
         videosPosters: [], // deprecated 3.2.0
-        slideDistance: 0.3
+        slideDistance: 0.3,
+        disableSliding: false
     };
 
     this.data = {
