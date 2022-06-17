@@ -1,8 +1,8 @@
 {
-  "name": "fslightbox",
+  "name": "fslightbox-custom",
   "version": "3.3.1",
   "description": "Modern and easy plugin for displaying images and videos in clean overlaying box. Display single source or create beautiful gallery with powerful lightbox.",
-  "author": "Bantha Apps Piotr Zdziarski",
+  "author": "Julian Forster - forked from Bantha Apps Piotr Zdziarski",
   "license": "MIT",
   "homepage": "https://fslightbox.com",
   "bugs": {
@@ -18,7 +18,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/banthagroup/fslightbox"
+    "url": "git+https://github.com/JAForster/fslightbox"
   },
   "scripts": {
     "test": "jest",
